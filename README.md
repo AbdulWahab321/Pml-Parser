@@ -1,5 +1,5 @@
 # Pml
-Pyml is just like XML but it is very easy to retrieve data using this library!
+Pml is just like XML but it is very easy to retrieve data using this library!
 The syntax is like:
 
 
@@ -14,7 +14,7 @@ The syntax is like:
 ```
 ## Retrieving data
 ```
-import pyml
+import pml_parser
 my_age = pyml.get_tag_property("example","age")
 print(my_age)
 my_name = pyml.get_sub_tag_value("example","name").get_value()
